@@ -1,0 +1,106 @@
+/* ===== Base ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f1ea; /* light cream */
+  color: #0b1f3a; /* navy */
+}
+
+/* Center layout */
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  max-width: 700px;
+  animation: fadeIn 1.2s ease-in;
+}
+
+/* Script title */
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  margin-bottom: 10px;
+  color: #0b1f3a;
+}
+
+/* Subtitle */
+.date {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  color: #0b1f3a;
+  opacity: 0.85;
+}
+
+/* Elegant divider */
+.divider {
+  width: 80px;
+  height: 1px;
+  background-color: #0b1f3a;
+  margin: 0 auto 25px auto;
+  opacity: 0.4;
+}
+
+/* Message text */
+.message {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  color: #0b1f3a;
+  opacity: 0.9;
+}
+
+/* ===== Button ===== */
+.button {
+  display: inline-block;
+  padding: 16px 34px;
+
+  background-color: #0b1f3a;
+  color: #ffffff;
+
+  text-decoration: none;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  box-shadow: 0 10px 25px rgba(11, 31, 58, 0.15);
+
+  transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #1a3a66;
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(11, 31, 58, 0.25);
+}
+
+/* ===== Footer ===== */
+.footer {
+  margin-top: 60px;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+/* ===== Subtle fade animation ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
