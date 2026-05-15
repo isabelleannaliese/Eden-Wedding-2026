@@ -1,0 +1,48 @@
+/* Page background + global font + navy color */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #f8f1ea, #ffffff);
+  color: #0b1f3a; /* dark navy for all text */
+}
+
+/* Center layout */
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* SCRIPT TITLE */
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  color: #0b1f3a;
+}
+
+/* Subtitle text */
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #0b1f3a;
+}
+
+/* BUTTON */
+.photo-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 18px 32px;
+  background-color: #0b1f3a;  /* navy */
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  transition: 0.2s ease;
+}
+
+/* BUTTON HOVER (lighter navy) */
+.photo-button:hover {
+  background-color: #1a3a66;
+}
