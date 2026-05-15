@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background:
+    linear-gradient(to bottom right, #f8f1ea, #ffffff);
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+}
+
+.button {
+  display: inline-block;
+  background: #c89b6d;
+  color: white;
+  text-decoration: none;
+  padding: 18px 32px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: #b3865d;
+}

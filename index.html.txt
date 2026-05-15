@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Wedding Photos</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>Emma & James</h1>
+
+  <p class="subtitle">
+    Thank you for celebrating with us!
+  </p>
+
+  <p>
+    Share your favorite moments from our wedding day.
+  </p>
+
+  <a class="button"
+     href="http://photos.app.goo.gl/r2ykVTHy1N6TSs356"
+     target="_blank">
+     Upload & View Photos
+  </a>
+
+</div>
+
+</body>
+</html>
